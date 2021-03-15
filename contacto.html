@@ -7,41 +7,64 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header>
-        <table width=100% cellpadding="25px" bgcolor="Gainsboro">
+    <header>        
+        <table width=100% cellspacing="5px" >
+            <tr>
+                <td>Inicio / <font color="orange">Tienda</font></td>
+                <td align="right" colspan="2"><font color="green">Sign in ▼</font></td>
+            </tr>
             <tr>
                 <td width=50%><a href="index.html"><img src="img/logo.png" alt="logo" width="150px"></img></a></td>
-                <td><a href="index.html">HOME</a></td>
-                <td><a href="perros.html">Perros</a></td>
-                <td><a href="periquitos.html">Aves</a></td>
-                <td>Gatos</td>
-                <td>Contacto</td>
-                <td>Tienda</td>
+                <td><form>                 
+                    <input type="text" name="buscar" id="nombre" placeholder="Buscar Artículos">
+                    <input type="button" value="Search">
+                </form></td>
+                <td bgcolor="orange" align="center" width="25%"><font color="white"><h4>Tienda</h4></font></td>
+                
             </tr>
-        </table>
+        </table> 
+    
+        <table width="100%" cellspacing="0">   
+            <tr bgcolor="Limegreen" align="center">
+    
+                <td width="100px"><font color="white"><a href="perros.html"><h4>Perros</h4></font></a></td>
+                <td width="100px"><font color="white"><a href="periquitos.html"><h4>Aves</h4></a></font></td>
+                <td width="100px"><font color="white"><h4>Gatos</h4></font></td>
+                <td width="200px"><font color="white"><h4>Roedores y hurones</h4></font></td>
+                <td width="100px"><font color="white"><h4>Peces</h4></font></td>
+                <td width="120px" bgcolor="forestgreen">
+                    <font color="white" ><h4>Contacto</h4></font></td>
+                <td ></td>
+                    
+            </tr>  
+        </table>  <br><br>      
+        
         <img src="img/contacto.png" alt="contacto" width="100%" height="300px">
     </header>
+
     <section>
-        <table  width="80%" cellspacing="15px">
+        <table width="80%" cellspacing="15px">
             <tr>
                 <td colspan="2" height="30px"></td>                
             </tr>
         </table>
-        <table align="center" width="80%" bgcolor="lightgreen" cellspacing="15px">
-            
+        <table align="center" width="80%" bgcolor="lightgreen" cellspacing="15px">            
             <tr>
-                <td rowspan="6" width="50%"><font color="darkgreen"><h2>CONTACT US</h2></font>
-                <h4>Tenemos oficinas en Guatemala, El Salvador y Honduras.</h4><br>
-                <font color="lightgreen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium vel rerum sint natus consequatur? Cumque, architecto fugit eveniet, accusantium dolorum, quos nemo vel quaerat dolores recusandae commodi! Provident, placeat, vel nihil id eos temporibus explicabo natus aperiam totam quis quidem soluta exercitationem est praesentium dolore, enim ad. Ipsa enim officiis, voluptatem natus consequatur incidunt hic aliquid earum debitis excepturi unde sint maiores quis voluptate deserunt? Esse doloremque quaerat labore, praesentium velit qui. Dolorem at, distincti.</font>
-            </td>
-
-                <td><br><br><font color="darkgreen"><strong>Nombre</strong></font><br><br>
+                <td width="50%"><font color="lightgreen">a</font>
+                    <font color="darkgreen"><h2>CONTÁCTANOS</h2></font>
+                <h4>Tenemos oficinas en Guatemala, El Salvador y Honduras.</h4>                
+                </td>
+                <td><font color="darkgreen"><br><br><strong>Nombre</strong></font><br><br>
                     <form width="500px">                 
                         <input type="text" name="name" id="nombre" placeholder="Name" size="50">                        
                     </form>       
                 </td>
             </tr>
             <tr>
+                <td rowspan="5" align="center"><br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3863.6205145197214!2d-87.6504361!3d14.4490201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f658528513a8349%3A0x92b0c8d459f337af!2sCOMAYAGUA%20HONDURAS!5e0!3m2!1ses!2shn!4v1615847557934!5m2!1ses!2shn" width="80%" height="250" style="border:0;" allowfullscreen="" loading="lazy" marginwidth="20" align="center"></iframe><h5>¿Dónde encontrarnos?</h5>
+                </td>
+
                 <td><font color="darkgreen"><strong>Email</strong></font><br><br>
                     <form width="500px">                 
                         <input type="email" name="correo" id="correo" placeholder="email@dominio.com" size="50">                        
@@ -49,14 +72,14 @@
                 </td>
             </tr>
             <tr>
-                <td><font color="darkgreen"><strong>Asunto</strong></font><br><br>
+                <td><font color="darkgreen"><br><strong>Asunto</strong></font><br><br>
                     <form width="500px">                 
                         <input type="text" name="asunto" id="asunto" placeholder="Asunto" size="50">                        
                     </form>       
                 </td>
             </tr>
             <tr>
-                <td><font color="darkgreen"><strong>Mensaje</strong></font><br><br>
+                <td><font color="darkgreen"><br><strong>Mensaje</strong></font><br><br>
                     <form width="500px">                 
                         <input type="text" name="texto" id="texto" placeholder="Introduzca su mensaje aqui" size="50">                        
                     </form>       
